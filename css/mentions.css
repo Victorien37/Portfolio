@@ -1,0 +1,94 @@
+* {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  color: #E3E3E3;
+  font-family: "BenchNine", sans-serif;
+  font-size: 30px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.row {
+  width: 75%;
+  margin: 256px auto;
+}
+
+.row div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.w-1 {
+  width: 7.3%;
+}
+
+.w-2 {
+  width: 15.6%;
+}
+
+.w-3 {
+  width: 24%;
+}
+
+.w-4 {
+  width: 32.3%;
+}
+
+.w-5 {
+  width: 40.6%;
+}
+
+.w-6 {
+  width: 49%;
+}
+
+.w-7 {
+  width: 57.3%;
+}
+
+.w-8 {
+  width: 65.6%;
+}
+
+.w-9 {
+  width: 74%;
+}
+
+.w-10 {
+  width: 82.3%;
+}
+
+.w-11 {
+  width: 90.6%;
+}
+
+.w-12 {
+  width: 99%;
+}
+
+body {
+  background-color: #343A40;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #FFC107;
+  margin: 10px;
+  font-family: "Source Code Pro", monospace;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+.no-margin {
+  margin: 0 auto;
+}

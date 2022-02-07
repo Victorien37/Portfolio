@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Cousine:wght@700&family=Source+Code+Pro:wght@900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=BenchNine:wght@300&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/portfolio.css">
+    </head>
+    <body>
+        <div id="accueil"></div>
+        <!--NAVBAR-->
+        <nav class="ordi">
+            <ul>
+                <li>
+                    Victorien Rodrigues
+                </li>
+                <li>
+                    <svg>
+                        <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h5.5a.5.5 0 0 0 .5-.5v-4h3v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4h3.5z"/>
+                    </svg>
+                    <a href="#accueil">Accueil</a>
+                </li>
+                <li>
+                    <svg>
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1h4s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                    </svg>
+                    <a href="#apropos">A Propos</a>
+                </li>
+                <li>
+                    <svg>
+                        <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h4a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5zm1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0zM1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5z"/>
+                    </svg>
+                    <a href="#parcours">Parcours</a>
+                </li>
+                <li>
+                    <svg>
+                        <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+                    </svg>
+                    <a href="#projets">Projets</a>
+                </li>
+                <li>
+                    <svg>
+                        <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zm1.354 4.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708.708z"/>
+                    </svg>
+                    <a href="#certifications">Certifications</a>
+                </li>
+                <li>
+                    <svg>
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h3a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1h3zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                    </svg>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- NAVBAR MOBILE -->
+        <nav class="mobile">
+            <div class="menu-bouton">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="menu-logo">
+                <h2>Victorien Rodrigues</h2>
+            </div>
+            <div class="menu-items">
+                <ul>
+                    <li>
+                        <svg>
+                            <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h5.5a.5.5 0 0 0 .5-.5v-4h3v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4h3.5z"/>
+                        </svg>
+                        <a href="#accueil">Accueil</a>
+                    </li>
+                    <li>
+                        <svg>
+                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1h4s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                        </svg>
+                        <a href="#apropos">A Propos</a>
+                    </li>
+                    <li>
+                        <svg>
+                            <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h4a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5zm1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0zM1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5z"/>
+                        </svg>
+                        <a href="#parcours">Parcours</a>
+                    </li>
+                    <li>
+                        <svg>
+                            <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+                        </svg>
+                        <a href="#projets">Projets</a>
+                    </li>
+                    <li>
+                        <svg>
+                            <path d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1h3v-1H.5a.5.5 0 0 1 0-1h3v-1H.5a.5.5 0 0 1 0-1h3v-1H.5a.5.5 0 0 1 0-1h3A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0zm-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3h-7zM5 6.5A1.5 1.5 0 0 1 6.5 5h4A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3zM6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
+                        </svg>
+                        <a href="#certifications">Certifications</a>
+                    </li>
+                    <li>
+                        <svg>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h3a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1h3zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                        </svg>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--PARALLAX-->
+        <div class="parallax">
+            <h1 id="animate-text">
+                <span
+                    class="txt-rotate"
+                    data-period="2000"
+                    data-rotate='[ "Bienvenue sur mon portfolio" ]'>
+                </span>
+            </h1>
+        </div>
+        <!--SECTION 1 : A PROPOS-->
+        <div id="apropos" class="ancre"></div>
+        <div class="row no-margin">
+            <div class="w-12">
+                <h2 class="align-middle">A Propos</h2>
+            </div>
+            <div class="w-12">
+                <hr>
+            </div>
+            <div class="w-4">
+                <img class="img-align" src="img/image.jpg" alt="image image">
+            </div>
+            <div class="w-8">
+                <h3>Présentation</h3>
+                <p>Je me présente, Victorien Rodrigues, étudiant en 1ère année de BTS SIO (Services Informatiques aux Organisations), option SLAM (Solutions Logicielles et Application Métier), l'option spécialisée dans le développement, au lycée Paul-Louis Courier à Tours (37000)</p>
+                <a id="open_overlay1" class="jaune">En savoir plus sur Victorien</a>
+                <br><br><br>
+                <h3>Projets Professionnelles</h3>
+                <p>Mon but après le BTS SIO est de faire une licence professionnelle en alterance puis me lancer dans le monde professionnelle
+                    et ainsi devenir Webmaster / Développeur web.
+                </p>
+            </div>
+            <!-- SECTION 1 OVERLAY -->
+            <div class="overlay" id="overlay1">
+                <h3 class="align-middle">Victorien Rodrigues</h3>
+                <a id="close_overlay1">
+                    <svg class="close">
+                        <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+                    </svg>
+                </a>
+                <p class="align-middle">Je suis Victorien Rodrigues</p>
+            </div>
+        </div>
+        <!--SECTION 2 : LE BTS SIO-->
+        <div class="row">
+            <div class="w-12">
+                <h3 class="align-middle">Le BTS SIO</h3>
+            </div>
+            <div class="w-12">
+                <p class="align-middle">Le Brevet de Technicien Supérieur aux Services Informatiques aux Organisations (BTS SIO), s'adresse à ceux qui souhaitent se former en deux ans aux métiers d'administrateur réseau ou de développeur. Pour par la suite intégrer directement le marché du travail ou continuer des études, dans le domaine de l'informatique.</p>
+                <h4 class="align-middle">Le BTS SIO propose 2 spécialitées</h4>
+            </div>
+            <div class="w-6">
+                <h4 class="align-middle"><a id="open_overlay_slam" class="jaune">SLAM</a></h4>
+                <img src="img/slam.PNG" class="img-align-middle" width="320" height="250">
+            </div>
+            <div class="w-6">
+                <h4 class="align-middle"><a id="open_overlay_sisr" class="jaune">SISR</a></h4>
+                <img src="img/sisr.PNG" class="img-align-middle" width="320" height="250">
+            </div>
+            <!-- SECTION 2 OVERLAY -->
+            <div class="overlay" id="overlay_slam">
+                <h4 class="align-middle">Solutions Logicielles et Application Métier</h4>
+                <a id="close_overlay_slam">
+                    <svg class="close">
+                        <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+                    </svg>
+                </a>
+                <p class="align-middle">Cette spécialité forme des techniciens qui sont capables de développer des logiciels et des sites web selon un cahier des charges.<br>Durant cette formation, les langages de programmation appris seront : </p>
+                <p>
+                    HTML       => Structuration d'une page web<br>
+                    CSS        => Deseign d'une page web<br>
+                    JavaScript => Evenement d'une page web<br>
+                    PHP        => Formulaire d'une page web<br>
+                    SQL        => Gestion de Base de Données<br>
+                    C#         => Logiciel (graphique)<br>
+                    Java       => Logiciel (graphique)<br>
+                    Python     => Logiciel<br>
+                    Android    => Logiciel (smartphone)
+                </p>
+                <p class="align-middle">Dans l'établissement Paul-Louis Courrier, nous apprenons aussi a utiliser des frameworks :</p>
+                <p>
+                    Bootstrap   => Deseign de la page web préétabli<br>
+                    CodeIgniter => Assure une sécurité suplémentaire à votre page web<br>
+                    Harmony => ne sais pas encore XD
+                </p>
+            </div>
+            <div class="overlay" id="overlay_sisr">
+                <h4 class="align-middle">Solutions d'Infrastructure, Système et Réseau</h4>
+                <a id="close_overlay_sisr">
+                    <svg class="close">
+                        <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+                    </svg>
+                </a>
+                <p class="align-middle">Cette spécialité forme des techniciens qui sont capables de configurer et cabler des appareils réseaux et serveurs<br>Durant cette formation, vous devrez apprendre : </p>
+                <p>
+
+                </p>
+            </div>
+        </div>
+        <!--SECTION 3 : PARCOURS-->
+        <div id="parcours" class="ancre"></div>
+        <div class="row">
+            <div class="w-12">
+                <h2 class="align-middle">Parcours</h2>
+                <hr>
+            </div>
+            <!--Experiences pro-->
+            <div class="w-12 accordeon-content">
+                <h4 class="align-middle">
+                    Expériences Professionnelles
+                    <a>
+                        <svg>
+                            <path fill-rule="evenodd" d="M8.636 12.5a.5.5 0 0 1-.5.5H1.5A1.5 1.5 0 0 1 0 11.5v-10A1.5 1.5 0 0 1 1.5 0h10A1.5 1.5 0 0 1 13 1.5v6.636a.5.5 0 0 1-1 0V1.5a.5.5 0 0 0-.5-.5h-10a.5.5 0 0 0-.5.5v10a.5.5 0 0 0 .5.5h6.636a.5.5 0 0 1 .5.5z"/>
+                            <path fill-rule="evenodd" d="M16 15.5a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1 0-1h3.793L6.146 6.854a.5.5 0 1 1 .708-.708L15 14.293V10.5a.5.5 0 0 1 1 0v5z"/>
+                        </svg>
+                    </a>
+                </h4>
+                <ul class="accordeon">
+                    <li>
+                        <div class="titre">Conseiller de vente Leroy Merlin Tours sud</div>
+                        <div class="description">CDI étudiant depuis Février 2021</div>
+                    </li>
+                    <li>
+                        <div class="titre">Hôte d'accueil Banque Populaire La Riche</div>
+                        <div class="description">CDD Juillet - Aout 2020 (1 mois)</div>
+                    </li>
+                    <li>
+                        <div class="titre">Vendeur LDLC Chambray-Lès-Tours</div>
+                        <div class="description">CDD Décembre 2019 - Janvier 2020 (1 semaine)</div>
+                    </li>
+                    <li>
+                        <div class="titre">Ouvrier Equinoxe Saint-Branchs</div>
+                        <div class="description">CDD Etés 2018 et 2019 (1 mois + 1 mois)</div>
+                    </li>
+                    <li>
+                        <div class="titre">Recolte de tabac La Petite Varnelle Louans</div>
+                        <div class="description">CDD Septembre 2017 (1 semaine)</div>
+                    </li>
+                </ul>
+            </div>
+            <!--Formations-->
+            <div class="w-12 accordeon-content">
+                <h4 class="align-middle">
+                    Formations
+                    <a>
+                        <svg>
+                            <path fill-rule="evenodd" d="M8.636 12.5a.5.5 0 0 1-.5.5H1.5A1.5 1.5 0 0 1 0 11.5v-10A1.5 1.5 0 0 1 1.5 0h10A1.5 1.5 0 0 1 13 1.5v6.636a.5.5 0 0 1-1 0V1.5a.5.5 0 0 0-.5-.5h-10a.5.5 0 0 0-.5.5v10a.5.5 0 0 0 .5.5h6.636a.5.5 0 0 1 .5.5z"/>
+                            <path fill-rule="evenodd" d="M16 15.5a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1 0-1h3.793L6.146 6.854a.5.5 0 1 1 .708-.708L15 14.293V10.5a.5.5 0 0 1 1 0v5z"/>
+                        </svg>
+                    </a>
+                </h4>
+                <ul class="accordeon">
+                    <li>
+                        <div class="titre">BTS SIO SLAM Lycée Paul-Louis Courier Tours</div>
+                        <div class="description">Services informatiques aux organisations option<br>Solutions Logicielles et Applications Métier<br>Septembre 2020 - </div>
+                    </li>
+                    <li>
+                        <div class="titre">BAC PRO SN RISC Lycée Henri Becquerel Tours</div>
+                        <div class="description">Systèmes Numériques option<br>Réseaux Informatiques et Systèmes Communicants<br>2017 - 2020 (Mention Bien)</div>
+                    </li>
+                    <li>
+                        <div class="titre">BEP SN Lycée Henri Becquerel Tours</div>
+                        <div class="description">Systèmes Numériques 2019 (17.5/20)</div>
+                    </li>
+                </ul>
+            </div>
+            <!--Stages-->
+            <div class="w-12 accordeon-content">
+                <h4 class="align-middle">
+                    Stages
+                    <a>
+                        <svg>
+                            <path fill-rule="evenodd" d="M8.636 12.5a.5.5 0 0 1-.5.5H1.5A1.5 1.5 0 0 1 0 11.5v-10A1.5 1.5 0 0 1 1.5 0h10A1.5 1.5 0 0 1 13 1.5v6.636a.5.5 0 0 1-1 0V1.5a.5.5 0 0 0-.5-.5h-10a.5.5 0 0 0-.5.5v10a.5.5 0 0 0 .5.5h6.636a.5.5 0 0 1 .5.5z"/>
+                            <path fill-rule="evenodd" d="M16 15.5a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1 0-1h3.793L6.146 6.854a.5.5 0 1 1 .708-.708L15 14.293V10.5a.5.5 0 0 1 1 0v5z"/>
+                        </svg>
+                    </a>
+                </h4>
+                <ul class="accordeon">
+                    <li>
+                        <div class="titre">AG2R LA MONDIALE</div>
+                        <div class="description">
+                            Mise à jour de logiciels Java<br>
+                            Janvier - Février 2022 (1 mois et demi)
+                        </div>
+                    </li>
+                    <li>
+                        <div class="titre">Rudy MICHAU Sorigny</div>
+                        <div class="description">
+                            Création d'un add-on sur le logiciel 3D Blender<br>
+                            Juin 2021 (1 mois)
+                        </div>
+                    </li>
+                    <li>
+                        <div class="titre">LDLC Chambray-Lès-Tours</div>
+                        <div class="description">
+                            Réparation et vente de matériel informatique<br>
+                            Novembre - Décembre 2019 (2 mois)
+                        </div>
+                    </li>
+                    <li>
+                        <div class="titre">IUT Tours nord</div>
+                        <div class="description">
+                            Création d'un serveur DRBL / Clonezilla<br>
+                            Mai - Juin 2019 (1 mois)
+                        </div>
+                    </li>
+                    <li>
+                        <div class="titre">Actévolis Joué-Lès-Tours</div>
+                        <div class="description">
+                            Remise en service d'une baie de brassage<br>
+                            Janvier - Février 2019 (1 mois)
+                        </div>
+                    </li>
+                    <li>
+                        <div class="titre">Rudy MICHAU Sorigny</div>
+                        <div class="description">
+                            Initation au langage de programmation Python<br>
+                            Juin - Juillet 2018 (1 mois)
+                        </div>
+                    </li>
+                    <li>
+                        <div class="titre">Equinoxe Saint-Branchs</div>
+                        <div class="description">
+                            Fabrication de pieuvre électrique<br>
+                            Février 2018 (3 semianes)
+                        </div>
+                    </li>
+                    <li>
+                        <div class="titre">Hutchinson Joué-Lès-Tours</div>
+                        <div class="description">
+                            Découverte du monde de l'informatique (Réseau)<br>
+                            Février 2017 (1 semaine)
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--SECTION 4 : PROJETS-->
+        <div id="projets" class="ancre"></div>
+        <div class="row">
+            <div class="w-12">
+                <h2 class="align-middle">Projets</h2>
+                <hr>
+            </div>
+            <!--Millenuits-->
+            <div class="w-6">
+                <h4 class="align-middle"><a id="open_overlay_millenuit" class="jaune">Millenuits</a></h4>
+                <p class="align-middle">Projet de conception d'un site web avec l'architecture MVC (Modèle Vue Controleur) suivant un cahier des charges précis. Utilisation du framework Bootstrap 4 (CSS), base de données MySQL</p>
+            </div>
+            <!--Blender Game Engine-->
+            <div class="w-6">
+                <h4 class="align-middle"><a id="open_overlay_bge" class="jaune">Blender Game Engine</a></h4>
+                <p class="align-middle">Projet de conception d'un add-on "Moteur de jeu" sur le logiciel Blender. Utilisation de l'API Blender, du langage de programmation Python. Programmation orienté objet avec mon tuteur de stage Rudy MICHAU</p>
+            </div>
+            <!--Concours des vins-->
+            <div class="w-6">
+                <h4 class="align-middle"><a id="open_overlay_cdv" class="jaune">Concours des vins</a></h4>
+                <p class="align-middle">Projet de conception d'une application web MVC (Modèle Vue Controleur) suivant un cahier des charges précis. Utilisation du framework CodeIgniter (PHP), base de données MySQL</p>
+            </div>
+            <!--AG2R-->
+            <div class="w-6">
+                <h4 class="align-middle"><a id="open_overlay_ag2r" class="jaune">AG2R</a></h4>
+                <p class="align-middle">Projet de mise à jour de logiciel Java Maven pour une futur migration sur un nouveau serveur</p>
+            </div>
+
+            <!-- SECTION 4 OVERLAY -->
+            <!--Millenuit-->
+            <div class="overlay" id="overlay_millenuit">
+                <h4 class="align-middle">Millenuits</h4>
+                <a id="close_overlay_millenuit">
+                    <svg class="close">
+                        <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+                    </svg>
+                </a>
+                <p class="align-middle">AZERTY</p>
+            </div>
+
+            <!--Blender Game Engine-->
+            <div class="overlay" id="overlay_bge">
+                <h4 class="align-middle">Blender Game Engine</h4>
+                <a id="close_overlay_bge">
+                    <svg class="close">
+                        <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+                    </svg>
+                </a>
+                <h5 class="align-middle">Présentation de l'entreprise</h5>
+                <p class="align-middle">Rudy MICHAU est une entreprise qui a été créée le premier février 2011 à Joué-Lès-Tours et qui aujourd’hui se situe à Sorigny. A ce jour, aucun salarié n’est dans l’entreprise car monsieur MICHAU travaille en freelance. Il est spécialisé dans la création web (sites internet et application web) et l’infographie.</p>
+                <br>
+                <h5 class="align-middle">Présentation du contexte</h5>
+                <p class="align-middle">Le but de ce stage était de créer un add'on pour le logiciel de rendu 3D Blender en utilisant son API (Python)<br>L'add'on est un moteur de jeu qui premet de se déplacer dans un environnement en 3 dimentions non prédictible. Le but était d'automatiser un personnage qui marche devant, dérrière, à gauche, à droite de lui tout en gérant les collisions, les pentes, ...</p>
+            </div>
+
+            <!--Concours des vins-->
+            <div class="overlay" id="overlay_cdv">
+                <h4 class="align-middle">Concours des vins</h4>
+                <a id="close_overlay_cdv">
+                    <svg class="close">
+                        <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+                    </svg>
+                </a>
+                <p>TEST</p>
+            </div>
+
+            <!--AG2R-->
+            <div class="overlay" id="overlay_ag2r">
+                <h4 class="align-middle">AG2R LA MONDIALE</h4>
+                <a id="close_overlay_ag2r">
+                    <svg class="close">
+                        <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+                    </svg>
+                </a>
+                <p>TEST</p>
+            </div>
+        </div>
+        
+
+        <!--SECTION 5 : CERTIFICATIONS-->
+        <div id="certifications" class="ancre"></div>
+        <div class="row">
+            <div class="w-12">
+                <h2 class="align-middle">Certifications</h2>
+                <hr>
+            </div>
+            <!--HTLM CSS-->
+            <div class="w-6">
+                <h4 class="align-middle"><a id="open_overlay_htmlcss" class="jaune">HTML5 et CSS3</a></h4>
+                <p class="align-middle">Apprenez à créer votre site avec HTML5 et CSS3</p>
+            </div>
+            <!--BOOTSTRAP-->
+            <div class="w-6">
+                <h4 class="align-middle"><a id="open_overlay_bootstrap" class="jaune">Bootstrap 4</a></h4>
+                <p class="align-middle">Créer des sites responsive avec Bootstrap 4</p>
+            </div>
+            <!--ANIMATION-->
+            <div class="w-6">
+                <h4 class="align-middle"><a id="open_overlay_animation" class="jaune">Animation CSS</a></h4>
+                <p class="align-middle">Créer des animations CSS modernes</p>
+            </div>
+            <!--MONGODB-->
+            <div class="w-6">
+                <h4 class="align-middle"><a id="open_overlay_mongodb" class="jaune">MongoDB</a></h4>
+                <p class="align-middle">Passez au Full Stack avec Node.js, Express et MongoDB</p>
+            </div>
+            <!--DJANGO-->
+            <div class="w-12">
+                <h4 class="align-middle"><a id="open_overlay_django" class="jaune">Django</a></h4>
+                <p class="align-middle">Découvrez le framework Django</p>
+            </div>
+
+            <!--SECTION 5 : OVERLAY-->
+            <!--HTML CSS-->
+            <div class="overlay" id="overlay_htmlcss">
+                <h4 class="align-middle">Apprenez à créer votre site avec HTML5 et CSS3</h4>
+                <a id="close_overlay_htmlcss">
+                    <svg class="close">
+                        <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+                    </svg>
+                </a>
+                <p class="align-middle">Cette certification nous apprend les bases de la création de site web avec HTML5 et CSS3<br><a href="https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3" target="_blank">La certification</a></p>
+            </div>
+
+            <!--BOOTSTRAP-->
+            <div class="overlay" id="overlay_bootstrap">
+                <h4 class="align-middle">Créer des sites responsive avec Bootstrap 4</h4>
+                <a id="close_overlay_bootstrap">
+                    <svg class="close">
+                        <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+                    </svg>
+                </a>
+                <p class="align-middle">Cette certification nous apprend comment utiliser le Framework CSS Bootstrap 4<br><a href="https://openclassrooms.com/fr/courses/6391096-creez-des-sites-web-responsive-avec-bootstrap-4" target="_blank">La certification</a></p>
+            </div>
+
+            <!--ANIMATION-->
+            <div class="overlay" id="overlay_animation">
+                <h4 class="align-middle">Créer des animations CSS modernes</h4>
+                <a id="close_overlay_animation">
+                    <svg class="close">
+                        <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+                    </svg>
+                </a>
+                <p class="align-middle">Cette certification nous montre comment faire des animation en css avec l'aide des keyframes<br><a href="https://openclassrooms.com/fr/courses/5919246-creez-des-animations-css-modernes" target="_blank">La certification</a></p>
+            </div>
+
+            <!--MONGODB-->
+            <div class="overlay" id="overlay_mongodb">
+                <h4 class="align-middle">Passez au Full Stack avec Node.js, Express et MongoDB</h4>
+                <a id="close_overlay_mongodb">
+                    <svg class="close">
+                        <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+                    </svg>
+                </a>
+                <p class="align-middle">Cette certification nous montre les bases à avoir pour la création d'une application web en Node.js en utilisant le serveur web Express et le SGBD no SQL MongoDB<br><a href="https://openclassrooms.com/fr/courses/6390246-passez-au-full-stack-avec-node-js-express-et-mongodb" target="_blank">La certification</a></p>
+            </div>
+
+            <!--DJANGO-->
+            <div class="overlay" id="overlay_django">
+                <h4 class="align-middle">Découvrez le framework Django</h4>
+                <a id="close_overlay_django">
+                    <svg class="close">
+                        <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+                    </svg>
+                </a>
+                <p class="align-middle">Cette certification nous donne les bases à avoir pour la création d'une application web en utilisant l'architecture MVT grâce au Framework Python Django.<br><a href="https://openclassrooms.com/fr/courses/4425076-decouvrez-le-framework-django/4630701-tirez-parti-de-ce-cours" target="_blank">La certification</a></p>
+            </div>
+        </div>
+        <!--SECTION 6 : CONTACT-->
+        <div id="contact" class="ancre"></div>
+        <div class="row reverse">
+            <div class="w-12">
+                <h2 class="align-middle">Contact</h2>
+            </div>
+            <form>
+                <div class="w-12">
+                    <span>Femme*</span>
+                    <label class="switch">
+                        <input type="checkbox" name="civilite" id="civilite" required>
+                        <span class="slider round"></span>
+                    </label>
+                    <span>Homme*</span>
+                </div>
+                <div class="w-12">
+                    <div class="layer-1">
+                        <div class="layer-2"></div>
+                        <label for="nom">Nom*</label>
+                        <input type="text" name="nom" value="" id="nom" required>
+                    </div>
+                </div>
+                <div class="w-12">
+                    <div class="layer-1">
+                        <div class="layer-2"></div>
+                        <label for="prenom">Prénom</label>
+                        <input type="text" name="prenom" value="" id="prenom">
+                    </div>
+                </div>
+                <div class="w-12">
+                    <div class="layer-1">
+                        <div class="layer-2"></div>
+                        <label for="tel">Téléphone</label>
+                        <input type="tel" name="tel" value="" id="tel">
+                    </div>
+                </div>
+                <div class="w-12">
+                    <div class="layer-1">
+                        <div class="layer-2"></div>
+                        <label for="mail">Mail*</label>
+                        <input type="email" name="mail" value="" id="mail" required>
+                    </div>
+                </div>
+                <div class="w-12">
+                    <div class="layer-1">
+                        <div class="layer-2"></div>
+                        <label for="sujet">Sujet*</label>
+                        <input type="text" name="sujet" value="" id="sujet" required>
+                    </div>
+                </div>
+                <div class="w-12">
+                    <p for="message">Message*</p>
+                    <textarea name="message" rows="3" cols="50" id="message" required></textarea>
+                </div>
+                <div class="w-12">
+                    <!-- <button>
+                        <input type="submit" id="submit">
+                        <svg>
+                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+                        </svg>
+                    </button> -->
+                    <input type="submit" id="submit">
+                </div>
+                <div class="w-12">
+                    <div id="resultat">
+                        <div class="message"></div>
+                        <div id="spin"></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <p class="align-middle">Créer par Victorien Rodrigues | © Copyright - Tous droits réservés - 2021 - <a href="html/mentions_legales.html">Mention légales</a></p>
+        </footer>
+    </body>
+    <script type="text/javascript" src="js/text.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="mail/ajax.js"></script>
+</html>
