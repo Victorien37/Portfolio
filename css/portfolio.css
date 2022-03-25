@@ -209,7 +209,7 @@ a {
 }
 
 .ancre {
-  height: 73px;
+  height: 220px;
   margin: -73px 0 0;
 }
 
@@ -338,12 +338,12 @@ textarea {
 .reverse div p {
   color: #343A40;
 }
-
+/*
 .switch {
   display: inline-block;
   width: 60px;
   height: 34px;
-  /* Rounded sliders */
+  Rounded sliders
 }
 
 .switch input {
@@ -397,7 +397,7 @@ textarea {
 .switch .slider.round:before {
   border-radius: 50%;
 }
-
+*/
 #submit {
   margin: 20px;
   background-color: #FFC107;

@@ -145,6 +145,31 @@ $(document).ready(function(){
         });
     });
     //////////////////////////////////////////
+    //OVERLAY D'OVERLAY VEILLE TECHNOLOGIQUE RSS
+    $("#open_overlay_technologique_rss").click(function(){
+        $("#overlay_technologique_rss").css({
+            "visibility" : "visible"
+        });
+    });
+    $("#close_overlay_technologique_rss").click(function(){
+        $("#overlay_technologique_rss").css({
+            "visibility" : "hidden"
+        });
+    });
+    //////////////////////////////////////////
+    //OVERLAY D'OVERLAY VEILLE TECHNOLOGIQUE LANGAGE
+    $("#open_overlay_technologique_langage").click(function(){
+        $("#overlay_technologique_langage").css({
+            "visibility" : "visible"
+        });
+    });
+    $("#close_overlay_technologique_langage").click(function(){
+        $("#overlay_technologique_langage").css({
+            "visibility" : "hidden"
+        });
+    });
+
+    //////////////////////////////////////////
     //OVERLAY VEILLE JURIDIQUE
     $("#open_overlay_juridique").click(function(){
         $("#overlay_juridique").css({
