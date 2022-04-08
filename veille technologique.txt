@@ -1,0 +1,28 @@
+<!--WEB-->
+                <p class="align-middle">
+                    Pour faire des sites internet, le plus simple est d'utiliser du HTML, CSS et JavaScript.
+                    Aujourd'hui il y a aussi beaucoup de sites faits en PHP grâce à l'architecture MVC (Modèle Vue Contrôleur) qui permet de séparer les données à afficher.
+                    Il existe aussi des Frameworks en Python: Django, Flask, Bootle ou encore Web2Py proposent aussi de créer des sites web grâce à l'architecture MVT (Modèle Vue Template) qui sont moins utilisés car Python n'est pas fait de base pour le web.
+                </p>
+                <!--Mobile-->
+                <p class="align-middle">
+                    Pour développer une application mobile, le Java (Langage logiciel compilé) et le Kotlin (Langage mobile compilé) sont les plus adaptés et les plus utilisés.
+                    Il existe aussi le Swift (Langage d'IOS compilé) et Objctive-C (Langage d'IOS compilé) qui sont moins utilisés car destinés à un public de niche.
+                    Le C, C++ et C# (Langages logiciels compilés) permettent aussi de faire des applications mobiles mais ne sont pas très utilisés car le Java et Kotlin sont plus adaptés.
+                    Enfin, il est possible d'utiliser Python (Langage logiciel interprété) grâce aux Frameworks Kivy et BeeWare mais qui n'est pas adapté de base avec le développement mobile.
+                </p>
+                <!--Logiciel / Jeu vidéo-->
+                <p class="align-middle">
+                    Pour concevoir un logiciel, le Java, C#, C, C++ et Python sont très adaptés pour ce genre d'exercice ainsi que pour le développement de jeu vidéo.
+                    Le langage Lua (Langage logiciel compilé) quant à lui, est plus utilisé pour créer des moteurs de jeu.
+                </p>
+                <!--IA-->
+                <p class="align-middle">
+                    Pour créer des IA, c'est Python qui domine le marché car il est le plus adapté pour les gros calculs, l'IA et le machine learning.
+                    Il est suivi de près par C++, Java et Prolog ().
+                    Deux langages reviennent petit à petit sur le devant de la scène pour créer des IA : R () et LISP ().
+                </p>
+                <!--Conclusion-->
+                <p class="aling-middle">
+
+                </p>

@@ -6,7 +6,7 @@ $(document).ready(function(){
         $.post(
             'contact.php',
             {
-                civilite : $("#civilite").val(),
+                // civilite : $("#civilite").val(),
                 nom : $("#nom").val(),
                 prenom : $("#prenom").val(),
                 tel : $("#tel").val(),

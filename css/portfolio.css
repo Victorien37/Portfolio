@@ -209,7 +209,7 @@ a {
 }
 
 .ancre {
-  height: 220px;
+  height: 73px;
   margin: -73px 0 0;
 }
 
@@ -338,12 +338,12 @@ textarea {
 .reverse div p {
   color: #343A40;
 }
-/*
+
 .switch {
   display: inline-block;
   width: 60px;
   height: 34px;
-  Rounded sliders
+  /* Rounded sliders */
 }
 
 .switch input {
@@ -397,7 +397,7 @@ textarea {
 .switch .slider.round:before {
   border-radius: 50%;
 }
-*/
+
 #submit {
   margin: 20px;
   background-color: #FFC107;
@@ -424,9 +424,9 @@ textarea {
   border-top: 6px solid #FFC107;
   width: 30px;
   height: 30px;
-  -webkit-animation: spin 2s linear infinite;
+  -webkit-animation: spin 8s linear infinite;
   /* Safari */
-  animation: spin 2s linear infinite;
+  animation: spin 8s linear infinite;
 }
 
 @-webkit-keyframes spin {
@@ -528,6 +528,9 @@ footer span {
   img {
     display: none;
   }
+  .myface {
+    display: none;
+  }
   .w-6 {
     left: 25%;
   }
@@ -579,6 +582,17 @@ footer span {
     width: 100%;
     height: 100%;
   }
+  form .maps {
+    visibility: hidden;
+    display: none;
+    height: 0;
+    width: 0;
+    border: 0;
+  }
+  form .form-contact {
+    position: relative;
+    left: -15%;
+  }
   textarea {
     width: 14em;
   }
@@ -606,6 +620,9 @@ footer span {
   }
   .ordi {
     display: none;
+  }
+  .myface {
+    visibility: hidden;
   }
   .mobile {
     display: block;
@@ -726,6 +743,13 @@ footer span {
   form .layer-1 .hover {
     width: 100%;
     height: 100%;
+  }
+  form .maps {
+    visibility: hidden;
+    display: none;
+    height: 0;
+    width: 0;
+    border: 0;
   }
   textarea {
     width: 10em;
