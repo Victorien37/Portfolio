@@ -289,7 +289,7 @@ table {
   border-collapse: collapse;
 }
 
-td, th, tr {
+td, th {
   padding: 15px;
   text-align: center;
   border: 1px solid #FFC107;
