@@ -98,6 +98,27 @@ a {
   color: #FFC107;
 }
 
+[class*="reveal-"] {
+  opacity: 0;
+  transform: translateY(-30px);
+}
+
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 1s cubic-bezier(.5, 0, 0, 1);
+}
+
+.reveal-2 {
+  transition-delay: .2s;
+}
+.reveal-3 {
+  transition-delay: .5s;
+}
+.reveal-4 {
+  transition-delay: .8s;
+}
+
 .mobile {
   display: none;
 }
@@ -263,6 +284,17 @@ div ul {
 .accordeon {
   transition: all 1s;
 }
+
+table {
+  border-collapse: collapse;
+}
+
+td, th, tr {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #FFC107;
+}
+
 
 form {
   display: inline-block;
