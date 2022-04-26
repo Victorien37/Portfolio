@@ -573,9 +573,6 @@ footer span {
   img {
     display: none;
   }
-  .myface {
-    display: none;
-  }
   .w-6 {
     left: 25%;
   }
@@ -671,9 +668,6 @@ footer span {
   }
   .ordi {
     display: none;
-  }
-  .myface {
-    visibility: hidden;
   }
   .mobile {
     display: block;
