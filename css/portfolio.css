@@ -119,10 +119,17 @@ a {
   transition-delay: .8s;
 }
 
+.p-mobile {
+  display: none;
+}
 .mobile {
   display: none;
 }
-
+.tableau-ordi {
+  display: block;
+  position: relative;
+  left: 10%;
+}
 .ordi {
   position: fixed;
   top: 0;
@@ -494,6 +501,12 @@ footer span {
   .row div {
     margin: 0 0.5%;
   }
+  .p-mobile {
+    display: block;
+  }
+  .tableau-ordi {
+    display: none;
+  }
   .ordi {
     display: none;
   }
@@ -649,6 +662,12 @@ footer span {
     position: relative;
     top: -8%;
     left: 90%;
+  }
+  .p-mobile {
+    display: block;
+  }
+  .tableau-ordi {
+    display: none;
   }
   .ordi {
     display: none;
