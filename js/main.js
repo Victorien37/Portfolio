@@ -27,7 +27,6 @@ $(document).ready(function(){
         });
     });
     $("#close_overlay_slam").click(function(){
-        // animateCSS('#overlay_slam', 'bounceOutDown');
         $("#overlay_slam").css({
             "visibility" : "hidden"
         });
@@ -48,7 +47,7 @@ $(document).ready(function(){
     /////////////////////////////////////////
     //OVERLAY MILLENUIT
     $("#open_overlay_millenuit").click(function(){
-        animateCSS('#overlay_slam', 'fadeIn');
+        animateCSS('#overlay_millenuit', 'fadeInLeft');
         $("#overlay_millenuit").css({
             "visibility" : "visible"
         });
@@ -61,7 +60,7 @@ $(document).ready(function(){
     ///////////////////////////////////////////
     //OVERLAY BLENDER GAME ENGINE
     $("#open_overlay_bge").click(function(){
-        animateCSS('#overlay_slam', 'fadeIn');
+        animateCSS('#overlay_bge', 'fadeInRight');
         $("#overlay_bge").css({
             "visibility" : "visible"
         });
@@ -74,7 +73,7 @@ $(document).ready(function(){
     //////////////////////////////////////////
     //OVERLAY CONCOURS DES VINS
     $("#open_overlay_cdv").click(function(){
-        animateCSS('#overlay_slam', 'fadeIn');
+        animateCSS('#overlay_cdv', 'fadeInLeft');
         $("#overlay_cdv").css({
             "visibility" : "visible"
         });
@@ -87,7 +86,7 @@ $(document).ready(function(){
     //////////////////////////////////////////
     //OVERLAY AG2R
     $("#open_overlay_ag2r").click(function(){
-        animateCSS('#overlay_slam', 'fadeIn');
+        animateCSS('#overlay_ag2r', 'fadeInRight');
         $("#overlay_ag2r").css({
             "visibility" : "visible"
         });
@@ -101,7 +100,7 @@ $(document).ready(function(){
     //////////////////////////////////////////
     //OVERLAY HTML CSS
     $("#open_overlay_htmlcss").click(function(){
-        animateCSS('#overlay_slam', 'fadeIn');
+        animateCSS('#overlay_htmlcss', 'backInLeft');
         $("#overlay_htmlcss").css({
             "visibility" : "visible"
         });
@@ -114,7 +113,7 @@ $(document).ready(function(){
     //////////////////////////////////////////
     //OVERLAY BOOTSTRAP
     $("#open_overlay_bootstrap").click(function(){
-        animateCSS('#overlay_slam', 'fadeIn');
+        animateCSS('#overlay_bootstrap', 'backInRight');
         $("#overlay_bootstrap").css({
             "visibility" : "visible"
         });
@@ -127,7 +126,7 @@ $(document).ready(function(){
     //////////////////////////////////////////
     //OVERLAY ANIMATION
     $("#open_overlay_animation").click(function(){
-        animateCSS('#overlay_slam', 'fadeIn');
+        animateCSS('#overlay_animation', 'backInLeft');
         $("#overlay_animation").css({
             "visibility" : "visible"
         });
@@ -139,21 +138,21 @@ $(document).ready(function(){
     });
     //////////////////////////////////////////
     //OVERLAY MONGODB
-    $("#open_overlay_mongodb").click(function(){
-        animateCSS('#overlay_slam', 'fadeIn');
-        $("#overlay_mongodb").css({
-            "visibility" : "visible"
-        });
-    });
-    $("#close_overlay_mongodb").click(function(){
-        $("#overlay_mongodb").css({
-            "visibility" : "hidden"
-        });
-    });
+    // $("#open_overlay_mongodb").click(function(){
+    //     animateCSS('#overlay_mongodb', 'backInRight');
+    //     $("#overlay_mongodb").css({
+    //         "visibility" : "visible"
+    //     });
+    // });
+    // $("#close_overlay_mongodb").click(function(){
+    //     $("#overlay_mongodb").css({
+    //         "visibility" : "hidden"
+    //     });
+    // });
     //////////////////////////////////////////
     //OVERLAY DJANGO
     $("#open_overlay_django").click(function(){
-        animateCSS('#overlay_slam', 'fadeIn');
+        animateCSS('#overlay_django', 'backInRight');
         $("#overlay_django").css({
             "visibility" : "visible"
         });
@@ -164,9 +163,35 @@ $(document).ready(function(){
         });
     });
     //////////////////////////////////////////
+    //OVERLAY VOLTAIRE
+    $("#open_overlay_voltaire").click(function(){
+        animateCSS('#overlay_voltaire', 'backInLeft');
+        $("#overlay_voltaire").css({
+            "visibility" : "visible"
+        });
+    });
+    $("#close_overlay_voltaire").click(function(){
+        $("#overlay_voltaire").css({
+            "visibility" : "hidden"
+        });
+    });
+    //////////////////////////////////////////
+    //OVERLAY NODEJS
+    $("#open_overlay_nodejs").click(function(){
+        animateCSS('#overlay_nodejs', 'backInRight');
+        $("#overlay_nodejs").css({
+            "visibility" : "visible"
+        });
+    });
+    $("#close_overlay_nodejs").click(function(){
+        $("#overlay_nodejs").css({
+            "visibility" : "hidden"
+        });
+    });
+    //////////////////////////////////////////
     //OVERLAY VEILLE TECHNOLOGIQUE
     $("#open_overlay_technologique").click(function(){
-        animateCSS('#overlay_slam', 'fadeIn');
+        animateCSS('#overlay_technologique', 'fadeInDown');
         $("#overlay_technologique").css({
             "visibility" : "visible"
         });
@@ -177,9 +202,9 @@ $(document).ready(function(){
         });
     });
     //////////////////////////////////////////
-    //OVERLAY D'OVERLAY VEILLE TECHNOLOGIQUE RSS
+    //OVERLAY VEILLE TECHNOLOGIQUE RSS
     $("#open_overlay_technologique_rss").click(function(){
-        animateCSS('#overlay_slam', 'fadeIn');
+        animateCSS('#overlay_technologique_rss', 'bounceIn');
         $("#overlay_technologique_rss").css({
             "visibility" : "visible"
         });
@@ -190,9 +215,9 @@ $(document).ready(function(){
         });
     });
     //////////////////////////////////////////
-    //OVERLAY D'OVERLAY VEILLE TECHNOLOGIQUE LANGAGE
+    //OVERLAY VEILLE TECHNOLOGIQUE LANGAGE
     $("#open_overlay_technologique_langage").click(function(){
-        animateCSS('#overlay_slam', 'fadeIn');
+        animateCSS('#overlay_technologique_langage', 'fadeInUp');
         $("#overlay_technologique_langage").css({
             "visibility" : "visible"
         });
@@ -205,17 +230,17 @@ $(document).ready(function(){
 
     //////////////////////////////////////////
     //OVERLAY VEILLE JURIDIQUE
-    $("#open_overlay_juridique").click(function(){
-        animateCSS('#overlay_slam', 'fadeIn');
-        $("#overlay_juridique").css({
-            "visibility" : "visible"
-        });
-    });
-    $("#close_overlay_juridique").click(function(){
-        $("#overlay_juridique").css({
-            "visibility" : "hidden"
-        });
-    });
+    // $("#open_overlay_juridique").click(function(){
+    //     animateCSS('#overlay_slam', 'fadeIn');
+    //     $("#overlay_juridique").css({
+    //         "visibility" : "visible"
+    //     });
+    // });
+    // $("#close_overlay_juridique").click(function(){
+    //     $("#overlay_juridique").css({
+    //         "visibility" : "hidden"
+    //     });
+    // });
     //////////////////////////////////////////
     //ACCORDEON PARCOURS
     $(".accordeon-content").click(function(){
@@ -229,6 +254,7 @@ $(document).ready(function(){
                 "max-height" : "0",
                 "border-color" : "#343A40"
             });
+            
             // document.querySelector(".open").setAttributeNS("http://www.w3.org/2000/svg", "d", "M.172 15.828a.5.5 0 0 0 .707 0l4.096-4.096V14.5a.5.5 0 1 0 1 0v-3.975a.5.5 0 0 0-.5-.5H1.5a.5.5 0 0 0 0 1h2.768L.172 15.121a.5.5 0 0 0 0 .707zM15.828.172a.5.5 0 0 0-.707 0l-4.096 4.096V1.5a.5.5 0 1 0-1 0v3.975a.5.5 0 0 0 .5.5H14.5a.5.5 0 0 0 0-1h-2.768L15.828.879a.5.5 0 0 0 0-.707z");
         } // FERMETURE DE L'ACCORDEON
         else {
