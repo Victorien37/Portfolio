@@ -4,7 +4,7 @@
   padding: 0;
   color: #E3E3E3;
   font-family: "BenchNine", sans-serif;
-  font-size: 30px;
+  font-size: 23px;
   box-sizing: border-box;
   outline: none;
 }
@@ -19,7 +19,7 @@
   vertical-align: top;
 }
 
-.w-1 {
+/* .w-1 {
   width: 7.3%;
 }
 
@@ -61,10 +61,11 @@
 
 .w-11 {
   width: 90.6%;
-}
+} */
 
 .w-12 {
   width: 99%;
+  margin: 30px;
 }
 
 body {

@@ -8,7 +8,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Cousine:wght@700&family=Source+Code+Pro:wght@900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=BenchNine:wght@300&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/portfolio.css">
-        <link rel="icon" href="img/icon.jpg" />
+        <link rel="icon" href="img/icon.png" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     </head>
     <body>
@@ -153,7 +153,7 @@
             <div class="w-12 reveal-1">
                 <hr>
             </div>
-            <div class="w-4 myface reveal-2">
+            <div class="w-4 reveal-2">
                 <img class="img-align-middle" src="img/myface.jpg" alt="mon visage" width="380" height="507">
             </div>
             <div class="w-8 reveal-3">
@@ -394,6 +394,18 @@
                 <p class="align-middle">Migration de projets Java par la création d'un fichier Groovy pour de l'intégration continue.</p>
             </div>
 
+            <!--SEG-->
+            <div class="w-6 reveal-2">
+                <h4 class="align-middle"><a id="open_overlay_seg" class="jaune">Service de Gestion des Eaux</a></h4>
+                <p class="align-middle">Projet de conception d'un WebService et d'une application mobile Java communicant ensemble en suivant un cahier des charges précis.</p>
+            </div>
+
+            <!--Portfolio-->
+            <div class="w-6 reveal-2">
+                <h4 class="align-middle"><a id="open_overlay_portfolio" class="jaune">Portfolio</a></h4>
+                <p class="align-middle">Conception et mise en place d'un site web type portfolio pour l'épreuve E5 du BTS SIO.</p>
+            </div>
+
             <!-- SECTION 4 OVERLAY -->
             <!--Millenuit-->
             <div class="overlay" id="overlay_millenuit">
@@ -471,6 +483,47 @@
                 <br>
                 <a href="https://github.com/Victorien37/Jenkinsfile/blob/cdddbb4c8b7047ce09a108db2219a94458a189e1/Jenkinsfile" target="_blank" class="jaune">Le lien du pipeline ici</a> 
             </div>
+
+            <!--SEG-->
+            <div class="overlay" id="overlay_seg">
+                <h4 class="align-middle">SEG</h4>
+                <a id="close_overlay_seg">
+                    <svg class="close">
+                        <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+                    </svg>
+                </a>
+                <img src="img/seg.jpg" class="img-align-middle" alt="logo SEG" width="259" height="194"/>
+                <br>
+                <h5 class="align-middle">Présentation de l'entreprise</h5>
+                <p class="align-middle">Le Service de Gestion des Eaux est une entreprise qui relève les consommations d'eau et indique s'il y a des annomalies</p>
+                <br>
+                <h5 class="align-middle">Présentation du contexte</h5>
+                <p class="align-middle">
+                    Une fois par an, les agents du SEG relèvent les consommations d’eau des compteurs vannes de chaque secteur.<br>
+                    Le relevé du nouvel index d’un compteur vanne sera saisi et enregistré sur le support mobile mis à disposition de chaque agent.<br>
+                    Les données seront ensuite exportées dans la base de données du SEG.
+                </p>
+                <br>
+                <a href="https://bitbucket.org/VictorienRodrigues/seg/src/master/" target="_blank" class="jaune">Le lien du projet ici</a>
+            </div>
+
+            <!--Portfolio-->
+            <div class="overlay" id="overlay_portfolio">
+                <h4 class="align-middle">Portfolio</h4>
+                <a id="close_overlay_portfolio">
+                    <svg class="close">
+                        <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+                    </svg>
+                </a>
+                <img src="img/icon.png" class="img-align-middle" alt="logo portfolio" width="100" height="100"/>
+                <br>
+                <h5 class="align-middle">Présentation du contexte</h5>
+                <p class="align-middle">Suite à 2 années en BTS SIO, l'étudiant doit développer un site web type portfolio suivant un cahier des charges précis pour l'épreuve E5.</p>
+                <br>
+
+                <a href="https://github.com/Victorien37/Portfolio" target="_blank" class="jaune">Le lien du projet ici</a>
+            </div>
+
         </div>
         <!--SECTION 5 : VEILLES-->
         <div id="veilles" class="ancre"></div>
@@ -503,8 +556,8 @@
                     </svg>
                 </a>
                 <h5 class="align-middle">Quel langage de programmation pour quelle finalité ?</h5>
-                <br>
-                <table class="w-12 ordi">
+                <br class="tableau-ordi">
+                <table class="w-12 tableau-ordi align-middle">
                     <tr>
                         <!--TH pour des titres-->
                         <!--TD pour des paragraphes-->
@@ -572,8 +625,19 @@
                         <td>Compilé</td>
                     </tr>
                 </table>
+                <p class="p-mobile align-middle">
+                    La création d'application mobile sous android se fait grâce à Java et Kotlin.<br>
+                    Sous IOS, anciennement avec Objective-C, aujourd'hui sous Swift.<br>
+                    Il existe des technologies de cross Cross-Platform qui permet de transformer du code C, C++, C# et Python en code Java / Kotlin
+                    <br><br>
+                    La création de logiciel se font essenciellement avec Java, C#, C, C++ et Python.
+                    <br><br>
+                    Pour la création d'IA, c'est Python qui est le plus utilisé.<br>
+                    Il est suivi de près par C++, Java et Prolog.<br>
+                    2 langages redeviennent utilisés le R et Lisp.
+                </p>
             </div>
-            <!--OVERLAY D'OVERLAY TECHNOLOGIQUE RSS-->
+            <!--OVERLAY TECHNOLOGIQUE RSS-->
             <div class="overlay" id="overlay_technologique_rss">
                 <a id="close_overlay_technologique_rss">
                     <svg class="close">
@@ -590,8 +654,8 @@
                     C'est très pratique pour trouver beaucoup d'informations en peu de temps !
                 </p>
             </div>
-            <!--FIN OVERLAY D'OVERLAY-->
-            <!--OVERLAY D'OVERLAY TECHNOLOGIQUE LANGAGE-->
+            <!--FIN OVERLAY-->
+            <!--OVERLAY TECHNOLOGIQUE LANGAGE-->
             <div class="overlay" id="overlay_technologique_langage">
                 <a id="close_overlay_technologique_langage">
                     <svg class="close">
@@ -608,7 +672,7 @@
                     En revanche, le parseur est un intermédiaire avec la machine et doit exécuter ligne par ligne, ce qui le rend plus long à exécuter.  
                 </p>
             </div>
-            <!--FIN OVERLAY D'OVERLAY-->
+            <!--FIN OVERLAY-->
             <!--VEILLE JURIDIQUE-->
             <div class="overlay" id="overlay_juridique">
                 <a id="close_overlay_juridique">
@@ -650,6 +714,18 @@
             <div class="w-6 reveal-2">
                 <h4 class="align-middle"><a id="open_overlay_django" class="jaune">Django</a></h4>
                 <p class="align-middle">Découvrez le Framework Django</p>
+            </div>
+
+            <!--Voltaire-->
+            <div class="w-6 reveal-2">
+                <h4 class="align-middle"><a id="open_overlay_voltaire" class="jaune">Voltaire</a></h4>
+                <p class="align-middle">Projet Voltaire</p>
+            </div>
+
+            <!--Node JS-->
+            <div class="w-6 reveal-2">
+                <h4 class="align-middle"><a id="open_overlay_nodejs" class="jaune">Node JS</a></h4>
+                <p class="align-middle">Passez au Full Stack avec Node.js, Express et MongoDB</p>
             </div>
 
             <!--SECTION 6 OVERLAY-->
@@ -730,6 +806,34 @@
                     permet d'apprendre à utiliser le Framework web Django et demande d'avoir des compétences dans la Programmation Orientée Objet (POO) en Python.<br>
                     Ce Framework repose sur l'architecture MVT (Modèle Vue Template), légèrement différent du modèle MVC (Modèle Vue Controleur) car le controleur est directement géré par le Framework.<br>
                     Django intègre grâce à une API CRUD un ORM pour accéder, créer, lire, mettre à jour, supprimer des bases de données.
+                </p>
+            </div>
+
+            <!--Voltaire-->
+            <div class="overlay" id="overlay_voltaire">
+                <h4 class="align-middle">Projet Voltaire</h4>
+                <a id="close_overlay_voltaire">
+                    <svg class="close">
+                        <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+                    </svg>
+                </a>
+                <img src="img/voltaire.jpg" class="img-align-middle" alt="logo projet voltaire" width="200" height="200"/>
+                <p class="align-middle">
+                    test
+                </p>
+            </div>
+
+            <!--Node JS-->
+            <div class="overlay" id="overlay_nodejs">
+                <h4 class="align-middle">Node JS</h4>
+                <a id="close_overlay_nodejs">
+                    <svg class="close">
+                        <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+                    </svg>
+                </a>
+                <img src="img/nodejs.jpg" class="img-align-middle" alt="logo projet voltaire" width="300" height="184"/>
+                <p class="align-middle">
+                    test
                 </p>
             </div>
 
@@ -827,7 +931,7 @@
             </form>
         </div>
         <footer>
-            <p class="align-middle">Créer par Victorien Rodrigues | © Copyright - Tous droits réservés - 2021 - <a href="html/mentions_legales.html" target="_blank">Mention légales</a></p>
+            <p class="align-middle">Créer par Victorien Rodrigues | © Copyright - Tous droits réservés - 2022 - <a href="html/mentions_legales.html" target="_blank">Mention légales</a></p>
         </footer>
     </body>
     <script type="text/javascript" src="js/text.js"></script>
