@@ -402,7 +402,7 @@
 
             <!--SEG-->
             <div class="w-6 reveal-2">
-                <h4 class="align-middle"><a id="open_overlay_seg" class="jaune">Service de Gestion des Eaux</a></h4>
+                <h4 class="align-middle"><a id="open_overlay_seg" class="jaune">Syndicat des Eaux du Gévaudan</a></h4>
                 <p class="align-middle">Projet de conception d'un WebService et d'une application mobile Java communicant ensemble en suivant un cahier des charges précis.</p>
             </div>
 
@@ -501,7 +501,7 @@
                 <img src="img/seg.jpg" class="img-align-middle" alt="logo SEG" width="259" height="194"/>
                 <br>
                 <h5 class="align-middle">Présentation de l'entreprise</h5>
-                <p class="align-middle">Le Service de Gestion des Eaux est une entreprise qui relève les consommations d'eau et indique s'il y a des annomalies</p>
+                <p class="align-middle">Le Syndicat des Eaux du Gévaudan est une entreprise qui relève les consommations d'eau et indique s'il y a des annomalies</p>
                 <br>
                 <h5 class="align-middle">Présentation du contexte</h5>
                 <p class="align-middle">
@@ -664,11 +664,11 @@
                 </a>
                 <img src="img/intervscomp.jpeg" alt="image langage de programmation" width="380px" height="195px" class="img-align-middle"/>
                 <p class="align-middle">
-                    Un langage compilé, lors de son exécution est traduit en langage binaire compréhensible directement par la machine.<br>
-                    Un langage interprété, lors de son exécution fait certaines actions grâce au parseur qui est intégré.<br>
-                    L'avantage d'un langage compilé est qu'il s'exécute rapidement car il passe directement par la machine.<br>
-                    En revanche, le langage en lui-même est plus complexe à appréhender car il nécessite plus de précisions pour la machine, les fichiers des langages compilés sont donc assez lourds.<br>
-                    L'avantage d'un langage interprété est qu'il est très facile à apprendre car il est plus simpliste, les fichiers sont donc assez légers.<br>
+                    Un langage compilé est traduit en langage binaire compréhensible par la machine.<br>
+                    Un langage interprété fait certaines actions grâce au parseur qui est intégré.<br>
+                    L'avantage d'un langage compilé est qu'il s'exécute rapidement.<br>
+                    En revanche, le langage est plus complexe à appréhender car il nécessite plus de précisions pour la machine, les fichiers des langages compilés sont donc lourds.<br>
+                    L'avantage d'un langage interprété est qu'il est facile à apprendre car plus simpliste, les fichiers sont donc légers.<br>
                     En revanche, le parseur est un intermédiaire avec la machine et doit exécuter ligne par ligne, ce qui le rend plus long à exécuter.  
                 </p>
             </div>
@@ -861,28 +861,28 @@
                         <div class="layer-1">
                             <div class="layer-2"></div>
                             <label for="nom">Nom*</label>
-                            <input type="text" name="nom" value="" id="nom" required>
+                            <input type="text" name="nom" value="" id="nom" required pattern="[a-zA-Z]">
                         </div>
                     </div>
                     <div class="w-12">
                         <div class="layer-1">
                             <div class="layer-2"></div>
                             <label for="prenom">Prénom</label>
-                            <input type="text" name="prenom" value="" id="prenom">
+                            <input type="text" name="prenom" value="" id="prenom" pattern="[a-zA-Z]">
                         </div>
                     </div>
                     <div class="w-12">
                         <div class="layer-1">
                             <div class="layer-2"></div>
                             <label for="tel">Téléphone</label>
-                            <input type="tel" name="tel" value="" id="tel">
+                            <input type="tel" name="tel" value="" id="tel" pattern="[0-9]{10}">
                         </div>
                     </div>
                     <div class="w-12">
                         <div class="layer-1">
                             <div class="layer-2"></div>
                             <label for="mail">Mail*</label>
-                            <input type="email" name="mail" value="" id="mail" required>
+                            <input type="email" name="mail" value="" id="mail" required pattern="(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*)@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])">
                         </div>
                     </div>
                     <div class="w-12">
@@ -912,7 +912,7 @@
             </form>
         </div>
         <footer>
-            <p class="align-middle">Créer par Victorien Rodrigues | © Copyright - Tous droits réservés - 2022 - <a href="html/mentions_legales.html" target="_blank">Mention légales</a></p>
+            <p class="align-middle">Créé par Victorien Rodrigues | © Copyright - Tous droits réservés - 2022 - <a href="html/mentions_legales.html" target="_blank">Mentions légales</a></p>
         </footer>
     </body>
     <script type="text/javascript" src="js/text.js"></script>

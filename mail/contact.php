@@ -13,7 +13,7 @@
     //Mail du support
     $contact = "contact@portfolio-victorien-rodrigues.fr";
     //Construction du message pour le mail contact du portfolio
-    $msg = "$nom $prenom" . "\r\n" . "$message" . "\r\n" . "Contact : $tel";
+    $msg = "$nom $prenom" . "\r\n" . "$message" . "\r\n" . "Contact : $tel" . "\r\n" ."Mail : $mail";
     
     //Test de la réponse du mail contact. Si il fonctionne, envoie du mail + envoie du mail au client + return success pour ajax.js
     if(mail($contact, $sujet, $msg)) {
