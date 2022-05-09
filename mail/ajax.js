@@ -27,26 +27,26 @@ $(document).ready(function(){
         else if (message == "" && nom != "" && mail != "" && sujet != "") {
             alert("Le champs message n'a pas été saisie");
         }
-        else if (nom || mail || sujet || mail == "") {
+        else if (nom == "" || mail == "" || sujet == "" || message == "") {
             alert("Au moins un élément obligatoire n'a pas été saisie");
         }
         // Test des regex du formulaire
-        else if (regexNomPrenom.test(nom) = false) {
+        else if (regexNomPrenom.test(nom) == false) {
             alert("Le champs nom n'est pas correctement renseigné");
         }
-        else if (regexNomPrenom.test(prenom) = false) {
+        else if (prenom != "" && regexNomPrenom.test(prenom) == false) {
             alert("Le champs prenom n'est pas correctement renseigné");
         }
-        else if (regexTel.test(tel) = false) {
+        else if (tel != "" && regexTel.test(tel) == false) {
             alert("Le champs téléphone n'est pas correctement renseigné");
         }
-        else if (regexMail.test(mail) = false) {
+        else if (regexMail.test(mail) == false) {
             alert("Le champs mail n'est pas correctement renseigné");
         }
         else {
             //Affichage du message le temps de l'envoie des mails.
             $(".message").html('<div class="message">Envoi en cours...</div>');
-            $("#spin").html('<div class="loader"></div>')
+            $("#spin").html('<div class="loader"></div>');
             //Envoie de toutes les valeurs à contact.php
             $.post(
                 'mail/contact.php',
