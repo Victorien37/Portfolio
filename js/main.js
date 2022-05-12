@@ -45,6 +45,19 @@ $(document).ready(function(){
         });
     });
     /////////////////////////////////////////
+    //OVERLAY AC_BLANQUI
+    $("#open_overlay_acblanqui").click(function(){
+        animateCSS('#overlay_acblanqui', 'fadeInLeft');
+        $("#overlay_acblanqui").css({
+            "visibility" : "visible"
+        });
+    });
+    $("#close_overlay_acblanqui").click(function(){
+        $("#overlay_acblanqui").css({
+            "visibility" : "hidden"
+        });
+    });
+    /////////////////////////////////////////
     //OVERLAY MILLENUIT
     $("#open_overlay_millenuit").click(function(){
         animateCSS('#overlay_millenuit', 'fadeInLeft');
@@ -162,20 +175,6 @@ $(document).ready(function(){
             "visibility" : "hidden"
         });
     });
-    //////////////////////////////////////////
-    //OVERLAY MONGODB
-    // $("#open_overlay_mongodb").click(function(){
-    //     animateCSS('#overlay_mongodb', 'backInRight');
-    //     $("#overlay_mongodb").css({
-    //         "visibility" : "visible"
-    //     });
-    // });
-    // $("#close_overlay_mongodb").click(function(){
-    //     $("#overlay_mongodb").css({
-    //         "visibility" : "hidden"
-    //     });
-    // });
-    //////////////////////////////////////////
     //OVERLAY DJANGO
     $("#open_overlay_django").click(function(){
         animateCSS('#overlay_django', 'backInRight');
@@ -185,6 +184,19 @@ $(document).ready(function(){
     });
     $("#close_overlay_django").click(function(){
         $("#overlay_django").css({
+            "visibility" : "hidden"
+        });
+    });
+    //////////////////////////////////////////
+    //OVERLAY ANSSI
+    $("#open_overlay_anssi").click(function(){
+        animateCSS('#overlay_anssi', 'backInRight');
+        $("#overlay_anssi").css({
+            "visibility" : "visible"
+        });
+    });
+    $("#close_overlay_anssi").click(function(){
+        $("#overlay_anssi").css({
             "visibility" : "hidden"
         });
     });
@@ -253,21 +265,6 @@ $(document).ready(function(){
             "visibility" : "hidden"
         });
     });
-
-    //////////////////////////////////////////
-    //OVERLAY VEILLE JURIDIQUE
-    // $("#open_overlay_juridique").click(function(){
-    //     animateCSS('#overlay_slam', 'fadeIn');
-    //     $("#overlay_juridique").css({
-    //         "visibility" : "visible"
-    //     });
-    // });
-    // $("#close_overlay_juridique").click(function(){
-    //     $("#overlay_juridique").css({
-    //         "visibility" : "hidden"
-    //     });
-    // });
-    //////////////////////////////////////////
     //ACCORDEON PARCOURS
     $(".accordeon-content").click(function(){
         $(".accordeon").css({
@@ -280,15 +277,12 @@ $(document).ready(function(){
                 "max-height" : "0",
                 "border-color" : "#343A40"
             });
-            
-            // document.querySelector(".open").setAttributeNS("http://www.w3.org/2000/svg", "d", "M.172 15.828a.5.5 0 0 0 .707 0l4.096-4.096V14.5a.5.5 0 1 0 1 0v-3.975a.5.5 0 0 0-.5-.5H1.5a.5.5 0 0 0 0 1h2.768L.172 15.121a.5.5 0 0 0 0 .707zM15.828.172a.5.5 0 0 0-.707 0l-4.096 4.096V1.5a.5.5 0 1 0-1 0v3.975a.5.5 0 0 0 .5.5H14.5a.5.5 0 0 0 0-1h-2.768L15.828.879a.5.5 0 0 0 0-.707z");
         } // FERMETURE DE L'ACCORDEON
         else {
             $(this).children(".accordeon").css({
                 "max-height" : "2000px",
                 "border-color" : "#FFC107"
             });
-            // $(this).document.querySelector(".open").setAttributeNS("http://www.w3.org/2000/svg", "d", "M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z");
         }
     });
     /////////////////////////////////////////////////

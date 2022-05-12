@@ -98,6 +98,10 @@ a {
   color: #FFC107;
 }
 
+.minuscule {
+  font-size: 22px;
+}
+
 [class*="reveal-"] {
   opacity: 0;
   transform: translateY(-30px);
