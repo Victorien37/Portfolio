@@ -98,6 +98,12 @@ a {
   color: #FFC107;
 }
 
+.img-ordi {
+  display: block;
+  position: relative;
+  left: 30%;
+}
+
 .minuscule {
   font-size: 22px;
 }
@@ -665,6 +671,9 @@ footer span {
   }
   .p-mobile {
     display: block;
+  }
+  .img-ordi {
+    display: none;
   }
   .tableau-ordi {
     display: none;
